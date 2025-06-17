@@ -7,7 +7,9 @@ npm run dev
 ```
 
 ## Live demo
-You can check the live demo: [https://github.com/elshadaghazade/simple_web3_app.git](Live demo)
+You can check the live demo: [https://github.com/elshadaghazade/simple_web3_app.git](Live demo website)
+
+Watch the live demo video record: [https://youtu.be/N6nuyHszBc8][Live demo video record]
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
