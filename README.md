@@ -6,14 +6,14 @@ First, run the development server:
 npm run dev
 ```
 
-## Live demo
-You can check the live demo: [https://github.com/elshadaghazade/simple_web3_app.git](Live demo website)
-
-Watch the live demo video record: [https://youtu.be/N6nuyHszBc8][Live demo video record]
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+
+## Live demo
+You can check the live demo: [Live demo website](https://github.com/elshadaghazade/simple_web3_app.git)
+
+Watch the live demo video record: [Live demo video record](https://youtu.be/N6nuyHszBc8)
 
 ## Learn More
 
