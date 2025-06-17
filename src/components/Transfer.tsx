@@ -138,7 +138,6 @@ const Transfer: FC<ITransferPropsType> = ({
             return;
         }
 
-        ethTransactionReset();
         onTransactionSuccess(ethhash);
     }, [isEthTxSuccess, onTransactionSuccess, ethhash, tokenType]);
 
@@ -146,10 +145,14 @@ const Transfer: FC<ITransferPropsType> = ({
         if (!isUsdtTxSuccess || !usdthash || tokenType !== 'usdt') {
             return;
         }
-
-        usdtTransactionReset();
+        
         onTransactionSuccess(usdthash);
     }, [isUsdtTxSuccess, onTransactionSuccess, usdthash, tokenType]);
+
+    const resetTransactionHistory = () => {
+        usdtTransactionReset();
+        ethTransactionReset();
+    }
 
 
     return (
@@ -225,6 +228,9 @@ const Transfer: FC<ITransferPropsType> = ({
             <Button color="primary" onPress={handleSubmit} disabled={isEthTxLoading || isUsdtTxLoading}>
                 Transfer
             </Button>
+            {isEthTxSuccess || isUsdtTxSuccess ? (
+                <Button color="danger" onPress={resetTransactionHistory}>clear transaction history</Button>
+            ) : ''}
         </div>
     );
 };
