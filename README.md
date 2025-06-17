@@ -11,7 +11,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
 ## Live demo
-You can check the live demo: [Live demo website](https://github.com/elshadaghazade/simple_web3_app.git)
+You can check the live demo: [Live demo website](https://simple-web3-app-nu.vercel.app/)
 
 Watch the live demo video record: [Live demo video record](https://youtu.be/N6nuyHszBc8)
 
